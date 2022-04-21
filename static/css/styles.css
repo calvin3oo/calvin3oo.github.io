@@ -1,0 +1,21 @@
+/*
+add cool font style:
+font-family: 'Akshar', sans-serif;*/
+.border-full-background{
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px 0;
+    background-color: rgb(208, 30, 30);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    margin: 0 auto;
+    width: 95%;
+}
