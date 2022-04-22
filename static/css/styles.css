@@ -1,6 +1,13 @@
 /*
 add cool font style:
 font-family: 'Akshar', sans-serif;*/
+#dunes-photo{
+    position: absolute;
+    right: 3em;
+    top: 1.5em;
+    width: 20%;
+    box-shadow: 0 0 7px #666666;
+}
 .border-full-background{
     width: 100%;
     margin: 5px auto;
@@ -39,11 +46,4 @@ main{
 }
 main > *{
     margin: 0;
-}
-#dunes-photo{
-    position: absolute;
-    right: 3em;
-    top: 1.5em;
-    width: 20%;
-    box-shadow: 0 0 7px #666666;
 }
