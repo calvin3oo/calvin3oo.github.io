@@ -28,22 +28,36 @@ a{
     width: 95%;
 }
 .header-text{
-    width: 75%;
     font-size: 3em;
     margin: .2em 0;
     left: 0;
 }
 .footer-text{
-    width: 75%;
     left: 0;
+}
+.w-75{
+    width: 75%;
 }
 .footer-text > p{
     margin: 0;
 }
 main{
     margin: 1em 1em;
-    width: 80%;
 }
 main > *{
     margin: 0;
+}
+
+#principles-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    gap: 2em;
+}
+.principle-img{
+    width: 100%;
+}
+.principle-company{
+    text-align: center; 
+    margin: 1em auto .1em auto;
 }
