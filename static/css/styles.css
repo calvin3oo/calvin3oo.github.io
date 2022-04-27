@@ -56,7 +56,6 @@ main > *{
 #principles-holder{
     display: inline;
     width: 100%;
-    gap: 2em;
 }
 #principles-holder > * {
     min-width: 320px;
@@ -72,5 +71,9 @@ main > *{
 .principle-company{
     text-align: center; 
     margin: 1em auto .1em auto;
+}
+
+#last-updated{
+    color: yellow;
 }
 
