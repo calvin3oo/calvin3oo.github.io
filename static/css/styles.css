@@ -77,3 +77,119 @@ main > *{
     color: yellow;
 }
 
+table, th, td {
+    border:1px solid black;
+}
+
+.site-header-color{
+    background-color: #cc0c39;
+    color: white;
+}
+.site-header-sample{
+    background-color: #cc0c39;
+    color: white;
+    font-size: 40px;
+}
+.site-header{
+    background-color: #cc0c39;
+    color: white;
+    font-size: 40px;
+}
+.primary-navigation-color{
+    background-color: #220b66;
+    color: white;
+}
+.primary-navigation-sample{
+    background-color: #220b66;
+    color: white;
+    font-size: 30px;
+}
+.primary-navigation{
+    background-color: #220b66;
+    color: white;
+    font-size: 30px;
+}
+.footer-navigation-color{
+    background-color: #3d05e8;
+    color: white;
+}
+.footer-navigation-sample{
+    background-color: #3d05e8;
+    color: white;
+    font-size: 20px;
+}
+.footer-navigation{
+    background-color: #3d05e8;
+    color: white;
+    font-size: 20px;
+}
+.h1-color{
+    color: #570318;
+}
+.h1-sample{
+    color: #570318;
+    font-size: 30px;
+}
+h1{
+    color: #570318;
+    font-size: 30px;
+}
+.h2-color{
+    color: #cf0a3b;
+}
+.h2-sample{
+    color: #cf0a3b;
+    font-size: 25px;
+}
+h2{
+    color: #cf0a3b;
+    font-size: 25px;
+}
+.h3-color{
+    color: #120145;
+}
+.h3-sample{
+    color: #120145;
+    font-size: 20px;
+}
+h3{
+    color: #120145;
+    font-size: 20px;
+}
+.p-sample{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+p{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.layout-table{
+    margin: 0 auto;
+}
+nav{
+    display: inline-block;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav ul{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: grid;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+}
+.logo{
+    max-width:50px;
+    display: inline;
+}
