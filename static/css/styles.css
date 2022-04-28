@@ -177,13 +177,17 @@ nav{
 }
 nav ul{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    display: grid;
+    display: block;
     margin: 0 auto;
     padding: 0;
     
 }
 nav ul li{
     list-style: none;
+}
+@media only screen and (min-width: 37.5em) {
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 auto; } 
 }
 nav ul li a{
     text-decoration: none;
