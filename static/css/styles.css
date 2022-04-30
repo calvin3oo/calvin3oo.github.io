@@ -15,9 +15,9 @@ font-family: 'Akshar', sans-serif;*/
 }
 .border-full-background{
     width: 100%;
-    margin: 5px auto;
-    padding: 10px 0;
-    background-color: rgb(208, 30, 30);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     border-radius: 5px;
     color: white;
     text-align: center;
@@ -29,7 +29,7 @@ a{
     text-decoration: underline;
 }
 .container{
-    margin: 0 auto;
+    margin: .5em auto;
     width: 95%;
 }
 .header-text{
@@ -37,14 +37,8 @@ a{
     margin: .2em 0;
     left: 0;
 }
-.footer-text{
-    left: 0;
-}
 .w-75{
     width: 75%;
-}
-.footer-text > p{
-    margin: 0;
 }
 main{
     margin: 1em 1em;
@@ -82,88 +76,99 @@ table, th, td {
 }
 
 .site-header-color{
-    background-color: #cc0c39;
+    background-color: #006DAA;
     color: white;
 }
 .site-header-sample{
-    background-color: #cc0c39;
+    background-color: #006DAA;
     color: white;
     font-size: 40px;
 }
 .site-header{
-    background-color: #cc0c39;
+    background-color: #006DAA;
     color: white;
     font-size: 40px;
+    padding: 5px;
 }
 .primary-navigation-color{
-    background-color: #220b66;
+    background-color: #061A40;
     color: white;
 }
 .primary-navigation-sample{
-    background-color: #220b66;
+    background-color: #061A40;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 .primary-navigation{
-    background-color: #220b66;
+    background-color: #061A40;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
 }
 .footer-navigation-color{
-    background-color: #3d05e8;
+    background-color: #061A40;
     color: white;
 }
 .footer-navigation-sample{
-    background-color: #3d05e8;
+    background-color: #061A40;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 .footer-navigation{
-    background-color: #3d05e8;
+    background-color: #061A40;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 5px;
 }
 .h1-color{
-    color: #570318;
+    color: #0353A4;
 }
 .h1-sample{
-    color: #570318;
+    color: #0353A4;
     font-size: 30px;
 }
 h1{
-    color: #570318;
+    color: #0353A4;
     font-size: 30px;
 }
 .h2-color{
-    color: #cf0a3b;
+    color: #0353A4;
 }
 .h2-sample{
-    color: #cf0a3b;
+    color: #0353A4;
     font-size: 25px;
 }
 h2{
-    color: #cf0a3b;
+    color: #0353A4;
     font-size: 25px;
 }
 .h3-color{
-    color: #120145;
+    color: #0353A4;
 }
 .h3-sample{
-    color: #120145;
+    color: #0353A4;
     font-size: 20px;
 }
 h3{
-    color: #120145;
+    color: #0353A4;
     font-size: 20px;
+}
+.p-color{
+    color: #000000;
 }
 .p-sample{
     font-size: 16px;
+    color: #000000;
     font-family: Arial, sans-serif;
 }
 p{
     font-size: 16px;
+    color: #000000;
     font-family: Arial, sans-serif;
 }
+
+
 
 .layout-table{
     margin: 0 auto;
@@ -187,7 +192,7 @@ nav ul li{
 }
 @media only screen and (min-width: 37.5em) {
     nav ul { display: flex; }
-    nav ul li { flex: 1 1 auto; } 
+    nav ul li { flex: 1 1; } 
 }
 nav ul li a{
     text-decoration: none;
@@ -196,4 +201,11 @@ nav ul li a{
 .logo{
     max-width:50px;
     display: inline;
+}
+.motto{
+    color: white;
+    margin: 0;
+}
+hr{
+    margin: 1em 0;
 }

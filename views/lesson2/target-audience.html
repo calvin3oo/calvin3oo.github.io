@@ -23,23 +23,23 @@
 <body>
     <div class="container">
       <header class="border-full-background">
-        <div class="header-top-content">
-          <img class="logo"src="..\..\static\media\rainbowLogo.png" alt="Rainbow Site Plan Logo">
-          <h1 class="header-text">Site Plan Target Audience</h1>
-          <h1 class="motto">Making Weather as Easy as 123</h1>
+        <div class="header-top-content site-header">
+          <img class="logo" src="../../static/media/rainbowLogo.png" alt="Rainbow Site Plan Logo">
+          Weather Site Planning Document
+          <p class="motto">Making Weather as Easy as 123</p>
         </div>
-        <hr>
-        <nav>
+        <nav class="primary-navigation">
           <ul>
             <!-- Home, Preston, Soda Springs, Fish Haven, Storm Center, and Gallery. -->
             <li><a href="/views/lesson2/index.html">Home</a></li>
             <li><a href="/views/lesson2/target-audience.html">Target Audience</a></li>
-            <li><a href="/views/lesson2/color-scheme.html">Color Scheme</a></li>
-            <li><a href="/views/lesson2/color-scheme.html">Typography</a></li>
+            <li><a href="/views/lesson2/color-scheme.html">Color Scheme / Typography</a></li>
           </ul>
         </nav>
       </header>
       <main>
+        <h1>Target Audience</h1>
+        <hr>
         <div class="target-audience-container">
             <div class="target-description">
               <h2>Target Audience:</h2>
@@ -48,13 +48,13 @@
             <div class="personas">
               <div class="persona1">
                 <h2>Persona 1: Jack Doe</h2>
-                <img class="logo" src="..\..\static\media\jack.png" alt="A picture of Jack Doe">
+                <img class="logo" src="../../static/media/jack.png" alt="A picture of Jack Doe">
                 <h3>Information:</h3>
                 <p> Jack Doe is an avid fisherman in the Soda Springs area. He loves to Canoe and barbaque. He has no children, a wife, and family all around Idaho. He loves the small town life and likes simple things. </p>
               </div>
               <div class="persona2">
                 <h2>Persona 2: Jane Doe</h2>
-                <img class="logo" src="..\..\static\media\jane.png" alt="A picture of jane Doe">
+                <img class="logo" src="../../static/media/jane.png" alt="A picture of jane Doe">
                 <h3>Information:</h3>
                 <p> Jane Doe is a planner and always has something on her mind. She lives in Soda Springs, has 3 kids, and has family close by in Preston.</p>
               </div>
@@ -71,14 +71,13 @@
             </div>
         </div>
       </main>
-      <footer class="border-full-background">
+      <footer class="footer-navigation border-full-background">
         <div class="footer-text">
-          <p>
-            @<span id="current-year"></span> | Calvin Olson | Idaho |  <a href="https://www.byui.edu/online">Byui Online Learning</a>
-          </p>
-          <p id="last-updated">
+          @<span id="current-year"></span> | Calvin Olson | Idaho |  <a href="https://www.byui.edu/online">Byui Online Learning</a>
+          <br>
+          <span id="last-updated">
             Last updated: <span id="last-updated-time"></span>
-          </p>
+          </span>
         </div>
       </footer>
     </div>

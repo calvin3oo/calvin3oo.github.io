@@ -23,23 +23,23 @@
 <body>
     <div class="container">
       <header class="border-full-background">
-        <div class="header-top-content">
-          <img class="logo" src="..\..\static\media\rainbowLogo.png" alt="Rainbow Site Plan Logo">
-          <h1 class="header-text">Site Plan Home Page</h1>
-          <h1 class="motto">Making Weather as Easy as 123</h1>
+        <div class="header-top-content site-header">
+          <img class="logo" src="../../static/media/rainbowLogo.png" alt="Rainbow Site Plan Logo">
+          Weather Site Planning Document
+          <p class="motto">Making Weather as Easy as 123</p>
         </div>
-        <hr>
-        <nav>
+        <nav class="primary-navigation">
           <ul>
             <!-- Home, Preston, Soda Springs, Fish Haven, Storm Center, and Gallery. -->
             <li><a href="/views/lesson2/index.html">Home</a></li>
             <li><a href="/views/lesson2/target-audience.html">Target Audience</a></li>
-            <li><a href="/views/lesson2/color-scheme.html">Color Scheme</a></li>
-            <li><a href="/views/lesson2/color-scheme.html">Typography</a></li>
+            <li><a href="/views/lesson2/color-scheme.html">Color Scheme / Typography</a></li>
           </ul>
         </nav>
       </header>
       <main>
+        <h1>Home</h1>
+        <hr>
         <h2>Site Name: Weather 123</h2>
         <div class="home-container">
           <div class="purpose">
@@ -52,18 +52,17 @@
           </div>
           <div class="logo-div">
             <h3>Site Logo:</h3>
-            <img class="logo" src="..\..\static\media\rainbowLogo.png" alt="Rainbow Site Plan Logo">
+            <img class="logo" src="../../static/media/rainbowLogo.png" alt="Rainbow Site Plan Logo">
           </div>
         </div>
       </main>
-      <footer class="border-full-background">
+      <footer class="footer-navigation border-full-background">
         <div class="footer-text">
-          <p>
-            @<span id="current-year"></span> | Calvin Olson | Idaho |  <a href="https://www.byui.edu/online">Byui Online Learning</a>
-          </p>
-          <p id="last-updated">
+          @<span id="current-year"></span> | Calvin Olson | Idaho |  <a href="https://www.byui.edu/online">Byui Online Learning</a>
+          <br>
+          <span id="last-updated">
             Last updated: <span id="last-updated-time"></span>
-          </p>
+          </span>
         </div>
       </footer>
     </div>
