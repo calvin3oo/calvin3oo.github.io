@@ -1,0 +1,13 @@
+@media only screen and (max-width:32.5em){
+    nav ul li{
+        display: none;
+    }
+    .second-menu{
+        display: inline;
+        height: 100%;
+        float: right;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+}

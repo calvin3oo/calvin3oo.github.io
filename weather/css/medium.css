@@ -1,0 +1,18 @@
+@media only screen and (min-width:32.5em){
+    nav ul { 
+        display: flex; 
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    } 
+}
+@media only screen and (max-width:56em){
+    nav ul li:not(:first-child){
+        display: none;
+    }
+    .responsive{
+        display: block;
+    }
+}

@@ -1,0 +1,175 @@
+
+html, body{
+    font-family: 'Akshar', sans-serif;
+    margin: 0;
+}
+
+/*
+add cool font style:
+font-family: 'Akshar', sans-serif;*/
+#dunes-photo{
+    position: absolute;
+    right: 3em;
+    top: 1.5em;
+    width: 20%;
+    box-shadow: 0 0 7px #666666;
+}
+.border-full-background{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+.container{
+    margin: .5em auto;
+    width: 95%;
+}
+.header-text{
+    font-size: 3em;
+    margin: .2em 0;
+    left: 0;
+}
+.w-75{
+    width: 75%;
+}
+main{
+    margin: 1em 1em;
+}
+main > *{
+    margin: 0;
+}
+
+#principles-holder{
+    display: inline;
+    width: 100%;
+}
+#principles-holder > * {
+    min-width: 320px;
+    max-width: 30%;
+    float: left;
+    margin: 0 .5em;
+}
+
+
+.principle-img{
+    width: 100%;
+}
+.principle-company{
+    text-align: center; 
+    margin: 1em auto .1em auto;
+}
+.header-container{
+    display: inline-block;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+.site-header{
+    background-color: #006DAA;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.primary-navigation{
+    background-color: #061A40;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+.footer-navigation{
+    background-color: #061A40;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+h1{
+    color: #0353A4;
+    font-size: 30px;
+}
+h2{
+    color: #0353A4;
+    font-size: 25px;
+}
+h3{
+    color: #0353A4;
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.layout-table{
+    margin: 0 auto;
+}
+.logo{
+    max-width:75px;
+    display: inline;
+}
+.motto{
+    color: white;
+    margin: 0;
+}
+hr{
+    margin: 1em 0;
+}
+
+.responsive.responsive li{
+    display: block;
+}
+
+.content{
+    margin: .5em;
+    background-color: grey;
+    border: 1px solid black;
+    padding: .5em 1em; 
+}
+nav a:hover{
+    background-color: #006DAA;
+}
+nav a{
+    height: 100%;
+}
+nav{
+    display: inline-block;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+nav ul{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    height: 100%;
+}
+.second-menu{
+    display: none;
+}
+.second-menu a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: auto;
+}
