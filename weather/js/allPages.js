@@ -9,6 +9,10 @@ document.getElementById('last-updated-time').innerHTML = `${dayOfWeek}, ${today.
 
 document.getElementById('current-year').innerHTML = new Date().getFullYear();
 
+if(dayOfWeek==="Friday"){
+    document.getElementById('onFriday').classList.add('show');
+}
+
 const toggleMenu = () => {
     document.getElementById('nav-ul').classList.toggle('responsive');
 }

@@ -269,3 +269,14 @@ ul li{
     max-width: 56em;
     margin: 0 auto;
 }
+.banner{
+    background-color: red;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+    color: white;
+    display: none;
+}
+.show{
+    display: block;
+}
