@@ -2,8 +2,4 @@
     .navigation li:first-child{
         display: none;
     }
-    .main-footer-container{
-        max-width: 56em;
-        margin: 0 auto;
-    }
 }

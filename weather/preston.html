@@ -36,35 +36,123 @@
         </div>
         <nav class="primary-navigation">
           <ul id="nav-ul" class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="./preston.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li id="menu"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li id="home"><a href="#">Home</a></li>
+            <li id="preston"><a href="./preston.html">Preston</a></li>
+            <li id="soda-springs"><a href="#">Soda Springs</a></li>
+            <li id="fish-haven"><a href="#">Fish Haven</a></li>
+            <li id="storm-center"><a href="#">Storm Center</a></li>
+            <li id="gallery"><a href="#">Gallery</a></li>
           </ul>
         </nav>
       </header>
-      <div class="main-footer-container">
-        <main>
-          <h1>Preston</h1>
-          <hr>
-          <div class="content">Hero w/Weather Summary</div>
-          <div class="content">5 Day Forcast</div>
-          <div class="content">Article</div>
-          <div class="content">Contact Information</div>
-        </main>
-        <footer class="footer-navigation border-full-background">
-          <div class="footer-text">
-            @<span id="current-year"></span> | Calvin Olson | Idaho |  <a href="https://www.byui.edu/online">Byui Online Learning</a>
-            <br>
-            <span id="last-updated">
-              Last updated: <span id="last-updated-time"></span>
-            </span>
+      <main>
+        <h1>Preston Idaho</h1>
+        <hr>
+        <img id="preston-mountains" src="./images/prestonMountains-min.jpg" alt="Preston Idaho Mountains">
+        <div class="weather-summary container">
+          <h2>Weather Summary</h2>
+          <div class="summary-grid">
+            <p class="right">Currently:</p>
+            <p class="left">Sunny</p>
+
+            <p class="right">High:</p>
+            <p class="left">76°F</p>
+
+            <p class="right">Wind Chill:</p>
+            <p class="left">3°F</p>
+
+            <p class="right">Humidity:</p>
+            <p class="left">69%</p>
+
+            <p class="right">Wind Speed:</p>
+            <p class="left">5 mph</p>
           </div>
-        </footer>
-      </div>
+        </div>
+        <div class="five-day-forecast container">
+          <h2>Five Day Forecast</h2>
+          <div class="forecasts">
+            <div id="forecast1">
+              <div class="day">
+                Wed.
+              </div>
+              <img src="./images/sun.png" alt="sunny day">
+              <p class="temp">
+                89°F
+              </p>
+            </div>
+            <div id="forecast2">
+              <div class="day">
+                Thur.
+              </div>
+              <img src="./images/sun.png" alt="sunny day">
+              <p class="temp">
+                69
+              </p>
+            </div>
+            <div id="forecast3">
+              <div class="day">
+                Fri.
+              </div>
+              <img src="./images/sun.png" alt="sunny day">
+              <p class="temp">
+                72°F
+              </p>
+            </div>
+            <div id="forecast4">
+              <div class="day">
+                Sat.
+              </div>
+              <img src="./images/sun.png" alt="sunny day">
+              <p class="temp">
+                80°F
+              </p>
+            </div>
+            <div id="forecast5">
+              <div class="day">
+                Sun.
+              </div>
+              <img class="weather-img" src="./images/sun.png" alt="sunny day">
+              <p class="temp">
+                85°F
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2>Article Title</h2>
+          <p class="article-summary"><img class="img-large preston-img" src="./images/preston.png" alt="Preston Member Image"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, iste voluptatem! Adipisci ut, beatae unde vero quam hic architecto optio ullam voluptates distinctio, repellat pariatur nisi corporis necessitatibus laudantium minima!</p>
+          <img class="img-small preston-img" src="./images/preston.png" alt="Preston Member Image">
+        </div>
+      </main>
+      <footer class="footer-navigation">
+        <div class="lighter footer">
+          <div class="footer-content-container">
+            <div class="contact-information">
+              <div class="contact-info-title">
+                Contact Information:
+              </div>
+              <ul>
+                <li>&#9742; 111-111-1111</li>
+                <li>&#128231; 123456@gmail.com</li>
+              </ul>
+              <div class="social-media">
+                <img class="media-button" src="./images/youtubeButton.png" alt="Youtube button">
+                <img class="media-button" src="./images/githubButton.png" alt="Github button">
+                <img class="media-button" src="./images/linkedInButton.png" alt="LinkedIn button">
+              </div>
+            </div>
+            <img class="map" src="./images/prestonMap.png" alt="Map of Preston ID">
+          </div>
+        </div>
+        <div class="footer-text footer">
+          @<span id="current-year"></span> | Calvin Olson | Idaho |  <a href="https://www.byui.edu/online">Byui Online Learning</a>
+          <br>
+          <span id="last-updated">
+            Last updated: <span id="last-updated-time"></span>
+          </span>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

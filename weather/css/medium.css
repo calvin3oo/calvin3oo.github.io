@@ -7,6 +7,54 @@
     nav ul li { 
         flex: 1 1 100%; 
     } 
+    .weather-summary{
+        position: relative;
+        display: inline-block;
+        background-color: #fff;
+        top:-10em;
+        left: 2em;
+        width: auto;
+        padding: .4em;
+        margin-bottom: -14em;
+        border: 2px solid #000000;
+    }
+    .five-day-forecast{
+        display: block;
+    }
+    .article-grid{
+        display: block;
+    }
+    .article-summary{
+        display: inline-block;
+    }
+    .preston-img{
+        float: right
+    }
+    .img-small{
+        display: none;
+    }
+    .img-large{
+        display:inline-block;
+    }
+    .footer-content-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .contact-information{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .map{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .contact-information ul{
+        margin-top: 3em;
+    }
+    .social-media{
+        margin-top: 2em;
+        display: inline-block;
+    }
 }
 @media only screen and (max-width:56em){
     nav ul li:not(:first-child){
