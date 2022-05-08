@@ -20,6 +20,7 @@
   
   <!-- Scripts -->
   <script src="./js/allPages.js" defer></script>
+  <script src="./js/windchill.js" defer></script>
 </head>
 <body>
   <div id="onFriday" class="banner">
@@ -52,24 +53,29 @@
       <main>
         <h1>Preston Idaho</h1>
         <hr>
-        <img id="preston-mountains" src="./images/prestonMountains-min.jpg" alt="Preston Idaho Mountains">
+        <img id="preston-mountains" src="./images/prestonHeroLarge.jpg" alt="Preston Idaho Mountains"
+          sixes="100vw"
+          srcset="./images/prestonHeroLarge.jpg 900w,
+                  ./images/prestonHeroMedium.jpg 700w,
+                  ./images/prestonHeroSmall.jpg 500w,"
+        >
         <div class="weather-summary container">
           <h2>Weather Summary</h2>
           <div class="summary-grid">
             <p class="right">Currently:</p>
-            <p class="left">Sunny</p>
+            <p id="currently" class="left">20°F Sunny</p>
 
             <p class="right">High:</p>
-            <p class="left">76°F</p>
+            <p id="high" class="left">30°F</p>
 
             <p class="right">Wind Chill:</p>
-            <p class="left">3°F</p>
+            <p id="wind-chill" class="left"></p>
 
             <p class="right">Humidity:</p>
-            <p class="left">69%</p>
+            <p id="humidity" class="left">69%</p>
 
             <p class="right">Wind Speed:</p>
-            <p class="left">5 mph</p>
+            <p id="wind-speed" class="left">5 mph</p>
           </div>
         </div>
         <div class="five-day-forecast container">
