@@ -280,3 +280,30 @@ ul li{
 .show{
     display: block;
 }
+/*Lazy Loading*/
+.lazy{
+    width: min(262px, 90%);
+    background-color: white;
+    display: inline-block;
+    margin: 1em;
+}
+.lazy img{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    background-color: grey;
+}
+.lazy div{
+    margin: .5em;
+}
+.lazy-container img[data-src] {
+    filter: blur(0.2em);
+}
+  
+.lazy-container img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.lazy-container{
+    text-align:center;
+}

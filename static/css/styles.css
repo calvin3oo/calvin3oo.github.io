@@ -115,6 +115,10 @@ table, th, td {
     color: white;
     font-size: 15px;
 }
+.text-white{
+    color: white;
+    font-size: 16px;
+}
 .footer-navigation{
     background-color: #061A40;
     color: white;
@@ -129,7 +133,6 @@ table, th, td {
     font-size: 30px;
 }
 h1{
-    color: #0353A4;
     font-size: 30px;
 }
 .h2-color{
@@ -208,4 +211,33 @@ nav ul li a{
 }
 hr{
     margin: 1em 0;
+}
+/*Lesson 4 Lazy Images*/
+.lazy{
+    width: min(400px, 100%);
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 1px #000000; 
+    box-shadow: 0px 0px 15px 1px #000000;
+    display: inline-block;
+    margin: 0 1em 1em 0;
+}
+.lazy img{
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background-color: grey;
+}
+.lazy div{
+    margin: .5em;
+}
+.lazy-container img[data-src] {
+    filter: blur(0.2em);
+}
+  
+.lazy-container img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.nomax{
+    max-width: 100%;
 }

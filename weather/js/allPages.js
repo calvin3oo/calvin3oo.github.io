@@ -21,6 +21,7 @@ const makeCurrentNavActive = () => {
     const tempURL = window.location.href.split('/');
     const lastURLSection = tempURL[tempURL.length-1];
     const navName = lastURLSection.substring(0, lastURLSection.indexOf('.html'));
+    console.log(navName);
 
     document.getElementById(navName).classList.add('active');
 }
