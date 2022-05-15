@@ -307,3 +307,48 @@ ul li{
 .lazy-container{
     text-align:center;
 }
+.thanks{
+    height: 10em;
+    padding-top: 2em;
+}
+.stormseverityLabel{
+    display: inline-block;
+}
+
+.storm-form{
+    display: inline-block;
+}
+.stormform-container{
+    width: 100%;
+    text-align: center;
+}
+.storm-form > *{
+    margin: .5em 0;
+}
+.storm-form div> *{
+    margin: .25em 0 .25em .5em;
+    text-align: left;
+}
+.storm-form > h3{
+    text-align: left;
+}
+#stormseverity{
+    display: inline-block;
+}
+#stormseverityLabel{
+    display: inline-block;
+    margin-left: .5em;
+}
+.submit-container{
+    text-align: right;
+}
+.submit-container button{
+    font-size: 1.5em;
+    background-color: #0353A4;
+    border: 6px double #FFFFFF;
+    color: white;
+}
+.submit-container button:hover{
+    background-color: #006DAA;
+    cursor: pointer;
+}
