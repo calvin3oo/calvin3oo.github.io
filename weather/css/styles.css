@@ -16,7 +16,7 @@ font-family: 'Akshar', sans-serif;*/
 }
 .border-full-background{
     width: 100%;
-    margin: 0;
+    margin: 0 0 1em 0;
     padding: 0;
     overflow: hidden;
     text-align: center;
@@ -350,4 +350,37 @@ ul li{
 .submit-container button:hover{
     background-color: #006DAA;
     cursor: pointer;
+}
+.footer-title{
+    font-size: 1em;
+    color: white;
+}
+
+/**Home Page Small Stuff**/
+.towngrid{
+    padding: .5em;
+    background-color: #006DAA;
+    color: white;
+    margin: .5em;
+}
+.towngrid-top{
+    margin: .5em 0;
+    text-align: center;
+}
+.town-title{
+    font-size: 2em;
+}
+.town-image{
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.towngrid-content > ul{
+    padding: 0;
+    text-align: center;
+    margin: .5em 0;
+}
+.towngrid-content > ul > li{
+    font-size: 1.2em;
+    margin: .5em 0;
 }

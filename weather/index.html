@@ -19,10 +19,10 @@
 	<meta name="description" content="123 Weather">
 	<!-- Scripts -->
 	<script src="./js/allPages.js" defer></script>
+	<script src="./js/insertTownData.js" defer></script>
 </head>
 
 <body>
-	<div id="onFriday" class="banner"> Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion! </div>
 	<div class="">
 		<header class="border-full-background">
 			<div class="site-header"> <img class="logo" src="./images/logo.png" alt="Rainbow Site Plan Logo">
@@ -43,15 +43,21 @@
 				</ul>
 			</nav>
 		</header>
-		<main class="thanks">
-			<h1>Thanks!</h1>
-			<br>
-			<p>Thank you for filling out the form!</p>
+		<main>
+			<h1>Home</h1>
+			<hr>
+			<div id="content-container" class="towngrid-container"></div>
 		</main>
 		<footer class="footer-navigation">
+            <div class="lighter">
+                <div class="footer-title">Wireframes:</div>
+                <a href="https://wireframe.cc/70IBHy">Large</a> - 
+                <a href="https://wireframe.cc/PUKFL0">Medium</a> -  
+                <a href="https://wireframe.cc/eSDIdR">Small</a>
+            </div>
 			<div class="footer-text footer"> @<span id="current-year"></span> | Calvin Olson | Idaho | <a href="https://www.byui.edu/online">Byui Online Learning</a>
 				<br> <span id="last-updated">
-            Last updated: <span id="last-updated-time"></span> </span>
+        Last updated: <span id="last-updated-time"></span> </span>
 			</div>
 		</footer>
 	</div>
