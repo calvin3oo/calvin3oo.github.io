@@ -307,12 +307,11 @@ ul li{
 .lazy-container{
     text-align:center;
 }
+
+/**Thanks page / storm form**/
 .thanks{
     height: 10em;
     padding-top: 2em;
-}
-.stormseverityLabel{
-    display: inline-block;
 }
 
 .storm-form{
@@ -325,11 +324,11 @@ ul li{
 .storm-form > *{
     margin: .5em 0;
 }
-.storm-form div> *{
+.storm-form fieldset> *{
     margin: .25em 0 .25em .5em;
     text-align: left;
 }
-.storm-form > h3{
+.storm-form > fieldset{
     text-align: left;
 }
 #stormseverity{
