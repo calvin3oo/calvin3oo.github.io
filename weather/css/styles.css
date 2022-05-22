@@ -240,6 +240,7 @@ ul li{
     flex: 0 0 100%;
     gap: 8%;
     margin-top: 1em;
+    justify-content: center;
 }
 .forecasts > *{
     border: 1px solid #000000;
