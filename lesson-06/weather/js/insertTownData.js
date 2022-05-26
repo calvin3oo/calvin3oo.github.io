@@ -33,8 +33,7 @@ const main = async() => {
                 </ul>
             </div>
             <div class="events">
-                <h3>Events:</h3>
-                <hr>
+                <h2>Events:</h2>
                 <ul>
                     ${eventsHTML}
                 </ul>

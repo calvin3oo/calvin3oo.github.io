@@ -396,7 +396,7 @@ ul li{
 .events{
     padding: 0 1em;
 }
-.events h3{
+.events h2{
     color: white;
     margin: 1em 0 .5em 0;
     font-weight: bold;
@@ -413,6 +413,6 @@ ul li{
 .events-town hr{
     margin: 0;
 }
-.events-town h3{
+.events-town h2{
     margin-bottom:.5em;
 }
