@@ -1,0 +1,21 @@
+@media only screen and (min-width:56em){
+    .navigation li:first-child{
+        display: none;
+    }
+    .lazy:hover{
+        -webkit-box-shadow: 0px 0px 15px 1px #000000; 
+        box-shadow: 0px 0px 15px 1px #000000;
+    }
+    .towngrid{
+        display: inline-block;
+        vertical-align: top;
+        max-width: 240px;
+        height: 390px;
+        top: 0;
+    }
+    .towngrid-container{
+        margin: 1.3em 0;
+        text-align: center;
+
+    }
+}
