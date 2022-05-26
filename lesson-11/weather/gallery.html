@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--stylesheets-->
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/large.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/medium.css">
+	<link rel="stylesheet" href="./css/small.css">
+	<!--google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;500;700&display=swap" rel="stylesheet">
+	<title>123 Weather</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="123 Weather">
+	<!-- Scripts -->
+	<script src="./js/allPages.js" defer></script>
+	<script src="./js/windchill.js" defer></script>
+	<script src="./js/lazy.js" defer></script>
+</head>
+
+<body>
+	<div id="onFriday" class="banner"> Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion! </div>
+	<div class="">
+		<header class="border-full-background">
+			<div class="site-header"> <img class="logo" src="./images/logo.png" alt="Rainbow Site Plan Logo">
+				<div class="header-container"> 123 Weather
+					<p class="motto">Making Weather as Easy as 123</p>
+				</div>
+				<div class="second-menu"> <a href="#" onclick="toggleMenu()">&#9776;</a> </div>
+			</div>
+			<nav class="primary-navigation">
+				<ul id="nav-ul" class="navigation">
+					<li id="menu"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+					<li id="index"><a href="./index.html">Home</a></li>
+					<li id="preston"><a href="./preston.html">Preston</a></li>
+					<li id="soda-springs"><a href="#">Soda Springs</a></li>
+					<li id="fish-haven"><a href="#">Fish Haven</a></li>
+					<li id="storm-center"><a href="./stormcenter.html">Storm Center</a></li>
+					<li id="gallery"><a href="./gallery.html">Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Gallery</h1>
+			<hr>
+			<div class="lazy-container">
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather1.jpg" alt="weather1 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather2.jpg" alt="weather2 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather3.jpg" alt="weather3 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather4.jpg" alt="weather4 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather5.jpg" alt="weather5 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather6.jpg" alt="weather6 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather7.jpg" alt="weather7 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather8.jpg" alt="weather8 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+				<div class="lazy"> <img src="./images/gallery/placeholder.jpg" data-src="./images/gallery/weather9.jpg" alt="weather9 image">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos quod enim deleniti minus eius vel deserunt, unde debitis qui rerum dignissimos suscipit dolorum numquam, quaerat ea sit, cumque eum.</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer-navigation">
+			<div class="footer-text footer"> @<span id="current-year"></span> | Calvin Olson | Idaho | <a href="https://www.byui.edu/online">Byui Online Learning</a>
+				<br> <span id="last-updated">
+            Last updated: <span id="last-updated-time"></span> </span>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
