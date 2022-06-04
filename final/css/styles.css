@@ -1,0 +1,432 @@
+
+html, body{
+    font-family: 'Akshar', sans-serif;
+    margin: 0;
+}
+
+/*
+add cool font style:
+font-family: 'Akshar', sans-serif;*/
+#dunes-photo{
+    position: absolute;
+    right: 3em;
+    top: 1.5em;
+    width: 20%;
+    box-shadow: 0 0 7px #666666;
+}
+.border-full-background{
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+.container{
+    margin: .5em auto;
+    width: 95%;
+}
+.header-text{
+    font-size: 3em;
+    margin: .2em 0;
+    left: 0;
+}
+.w-75{
+    width: 75%;
+}
+main{
+    max-width: 56em;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+main > *{
+    margin: 0;
+}
+
+#principles-holder{
+    display: inline;
+    width: 100%;
+}
+#principles-holder > * {
+    min-width: 320px;
+    max-width: 30%;
+    float: left;
+    margin: 0 .5em;
+}
+
+
+.principle-img{
+    width: 100%;
+}
+.principle-company{
+    text-align: center; 
+    margin: 1em auto .1em auto;
+}
+.header-container{
+    display: inline-block;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+.site-header{
+    background-color: #006DAA;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.primary-navigation{
+    background-color: #061A40;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+.footer-navigation{
+    background-color: #061A40;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+.footer-navigation > *{
+    padding: 5px;
+}
+.footer-navigation ul{
+    padding: 0;
+}
+h1{
+    color: #0353A4;
+    font-size: 30px;
+}
+h2{
+    margin: 0 0 .2em 0;
+    border-bottom: 2px solid #000000;
+    color: #0353A4;
+    font-size: 25px;
+}
+h3{
+    color: #0353A4;
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin-bottom: .5em;
+}
+
+
+
+.layout-table{
+    margin: 0 auto;
+}
+.logo{
+    max-width:75px;
+    display: inline;
+}
+.motto{
+    color: white;
+    margin: 0;
+}
+hr{
+    margin: 1em 0;
+}
+
+.responsive.responsive li{
+    display: block;
+}
+
+.content{
+    margin: .5em;
+    background-color: grey;
+    border: 1px solid black;
+    padding: .5em 1em; 
+}
+nav a:hover{
+    background-color: #006DAA;
+}
+nav a{
+    height: 100%;
+}
+nav{
+    display: inline-block;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+nav ul{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    height: 100%;
+}
+.second-menu{
+    display: none;
+}
+.second-menu a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: auto;
+}
+
+.active{
+    background-color: #006DAA;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.summary-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.summary-grid > *{
+    margin: .2em;
+}
+.preston-img{
+    background-color: #000000;
+    max-height: 150px;
+    max-width: 269px;
+    margin: 0 auto;
+    grid-row: 2 / 3;
+}
+.map{
+    padding: .4em;
+    width: 15em;
+    height: 15em;
+    margin: 0 auto;
+}
+.lighter{
+    background-color: #006DAA;
+}
+.darker{
+    background-color: #0353A4;
+}
+ul li{ 
+    list-style: none;
+}
+.five-day-forecast{
+    display: none;
+}
+.weather-img{
+    width: 100%;
+}
+.forecasts{
+    display: flex;
+    flex: 0 0 100%;
+    gap: 8%;
+    margin-top: 1em;
+    justify-content: center;
+}
+.forecasts > *{
+    border: 1px solid #000000;
+    padding: .3em;
+    text-align: center;
+}
+.img-large{
+    display: none;
+}
+.contact-info-title{
+    font-size: 1.3em;
+}
+.social-media{
+    display: none;
+}
+.media-button{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: .3em;
+}
+.main-footer-container{
+    width: 100%;
+    margin: 0;
+}
+.footer-content-container{
+    max-width: 56em;
+    margin: 0 auto;
+}
+.banner{
+    background-color: red;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+    color: white;
+    display: none;
+}
+.show{
+    display: block;
+}
+/*Lazy Loading*/
+.lazy{
+    width: min(262px, 90%);
+    background-color: white;
+    display: inline-block;
+    margin: 1em;
+}
+.lazy img{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    background-color: grey;
+}
+.lazy div{
+    margin: .5em;
+}
+.lazy-container img[data-src] {
+    filter: blur(0.2em);
+}
+  
+.lazy-container img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.lazy-container{
+    text-align:center;
+}
+
+/**Thanks page / storm form**/
+.thanks{
+    height: 10em;
+    padding-top: 2em;
+}
+
+.storm-form{
+    display: inline-block;
+}
+.stormform-container{
+    width: 100%;
+    text-align: center;
+}
+.storm-form > *{
+    margin: .5em 0;
+}
+.storm-form fieldset> *{
+    margin: .25em 0 .25em .5em;
+    text-align: left;
+}
+.storm-form > fieldset{
+    text-align: left;
+}
+#stormseverity{
+    display: inline-block;
+}
+#stormseverityLabel{
+    display: inline-block;
+    margin-left: .5em;
+}
+.submit-container{
+    text-align: right;
+}
+.submit-container button{
+    font-size: 1.5em;
+    background-color: #0353A4;
+    border: 6px double #FFFFFF;
+    color: white;
+}
+.submit-container button:hover{
+    background-color: #006DAA;
+    cursor: pointer;
+}
+.footer-title{
+    font-size: 1em;
+    color: white;
+}
+
+/**Home Page Small Stuff**/
+.towngrid{
+    padding: .5em;
+    background-color: #006DAA;
+    color: white;
+    margin: .5em;
+}
+.towngrid-top{
+    margin: .5em 0;
+    text-align: center;
+}
+.town-title{
+    font-size: 2em;
+}
+.town-image{
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.towngrid-content > ul{
+    padding: 0;
+    text-align: center;
+    margin: .5em 0;
+}
+.towngrid-content > ul > li{
+    font-size: 1.2em;
+    margin: .5em 0;
+}
+.vertical-center *{
+    vertical-align: middle;
+}
+.reservation-button{
+    text-decoration: none;
+    color: white;
+    background-color: #8b0000;
+    padding: .5em 1em;
+    margin: 2em;
+    margin-bottom: 2em;
+}
+.res{
+    margin: 2em;
+    text-align: center;
+}
+#rental-table{
+    width: 100%;
+    margin: 2em 0;
+}
+#res-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #e2eaf4;
+    padding: 10px;
+}
+#res-form > *{
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
+    width: 100%;
+}
+.tour-img{
+    max-width: 400px;
+    display: block;
+    margin: .5em auto;
+}
+.iframe-container{
+    display: block;
+    margin: 0 auto;
+}
+.iframe-container > iframe{
+    width: 45%;
+    margin: .5em;
+}
